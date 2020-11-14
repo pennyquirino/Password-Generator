@@ -1,6 +1,6 @@
 # Password-Generator
 
-<a href="https://pennyquirino.github.io/Password-Generator>Click here to see my application</a>
+<a href="https://pennyquirino.github.io/Password-Generator/">Click to see my work</a> 
 
 This project was to creat an application for a user to generate a random password with minimum character length of 8 characters and no more than 128 characters. 
 
