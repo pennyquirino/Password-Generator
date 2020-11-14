@@ -7,7 +7,33 @@
     <link rel="stylesheet" href="/assets/styles/style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h1 class="title">Password Generator</h1>
+        <h3 class="password-display" id="passwordDisplay">password</h3>
+
+        <form id="passwordGeneratorForm" class="form">
+            <label for="">How Many Characters?</label>
+            <div class="character-amt-container">
+                <input type="range" min="8" max="25" value="10" id="characterAmtRange">
+                <input class="number-input" type="number" min="8" max="25" value="10" id="characterAmtNumber" readonly>
+
+            </div>
+           
+
+            <label for="includeNumber">Include Number(s)</label>
+            <input type="checkbox" id="includeNumber">
+
+            <label for="includeUppercase">Include Uppercase</label>
+            <input type="checkbox" id="includeUppercase">
+
+            <label for="includeSymbol">Include Symbol(s)</label>
+            <input type="checkbox" id="includeSymbol">
+
+            <button onclick="generatePassword()" type="submit" class="btn">Generate Your Password</button>
+        </form>
+    </div>
+
+
     <script src="assets/js/script.js"></script>
 </body>
 </html>
