@@ -60,3 +60,31 @@ label {
     word-break: break-all;
     border-radius: .5rem;
 }
+
+.btn {
+    grid-column: span 2;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: .5 rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ffffff33;
+}
+
+.btn2 {
+    grid-column: span 2;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: .5 rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background-color: #ffffff33;
+}
