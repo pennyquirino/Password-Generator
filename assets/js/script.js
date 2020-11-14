@@ -1,0 +1,7 @@
+const characterAmtRange = document.getElementById("characterAmtRange")
+const characterAmtNumber = document.getElementById("characterAmtNumber")
+const includeUppercase = document.getElementById("includeUppercase")
+const includeNumber = document.getElementById("includeNumber")
+const includeSymbol = document.getElementById("includeSymbol")
+const form = document.getElementById("passwordGeneratorForm")
+const passwordDisplay = document.getElementById("passwordDisplay")
