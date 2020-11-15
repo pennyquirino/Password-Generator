@@ -13,5 +13,5 @@ Repository follows best practices for class/id naming conventions, indentation, 
 Repository contains multiple descriptive commit messages.
 Repository contains quality README file with description, screenshot, and link to deployed application.
 
-<img src="github.com/pennyquirino/Password-Generator/assets/screenshot.jpg">
+![](assets/screenshot.jpg
 
