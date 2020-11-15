@@ -15,4 +15,4 @@ Repository contains quality README file with description, screenshot, and link t
 
 
 
-![](github.com/pennyquirino/Password-Generator/tree/main/images/screenshot.jpg)
+![](./images/screenshot.JPG)
